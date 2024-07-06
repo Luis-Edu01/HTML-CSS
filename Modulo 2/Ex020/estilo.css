@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    display:inline-block;
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+div:hover{
+	background-color: yellow; /* desta linha para cima é onde se faz as caixas */
+}
+div > p{ /* --> esconde o texto do paragrafo dentro da div*/
+    display:none;
+}
+div:hover > p{  /* aqui é onde o texto do paragrafo que foi escondido volta a aparecer */
+    display: block;
+    color:white;
+    background-color: red;
+    width: 300px;
+}
+div:hover{
+    color:red; /* O texto fica vermelho quando passa o mouse em cima*/
+}

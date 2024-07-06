@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+h1{
+    box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p#section{
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+}
+nav{
+    background-color: rgb(102,102,102);
+    padding: 3px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.534);
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font: bold;
+    margin-right: 30px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 0px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.466);
+}
+article{
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 10px;
+}
+article > aside {
+    background-color: rgb(165,165,165);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+footer > p{
+    margin: 0px;
+}
+div#bola{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+}

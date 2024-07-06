@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id  = em CSS é # --> só pode um elemento
+    em HTML é class = em css é . (ponto) --> pode varios elementos
+*/
+
+body{
+    background-image: linear-gradient(35deg,rgb(133, 158, 212),rgb(240, 147, 147),aqua,rgb(5, 197, 5));
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+h1#principal{
+    text-align: center;
+    color:rgb(0, 0, 0);
+}
+h2{
+    color: rgb(0, 0, 0);
+}
+p{
+    color: black;
+}
+.basico{
+    color: blue;
+    text-align: left;
+    font-weight: bold;
+}
+.intermediario{
+    color:rgb(0, 71, 10);
+    text-align: center;
+    font-weight: bolder;
+}
+.avancado{
+    color:red;
+    text-align: right;
+}
+.destaque{
+    background-image:linear-gradient(to right, yellow,green,red);
+}
