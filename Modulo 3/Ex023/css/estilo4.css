@@ -1,0 +1,14 @@
+body{
+    margin-top: 10%;
+}
+table{
+    width: 500px;
+    border-collapse: collapse;
+    margin: auto;
+}
+tr > td{
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
