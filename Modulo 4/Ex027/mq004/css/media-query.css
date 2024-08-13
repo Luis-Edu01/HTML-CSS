@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/*Todas as demais mídias*/
+
+/*typical device breakpoint*/
+
+/*
+Celular - retrato: 320px até 414px
+Celular - Paisagem: 568px até 812px
+
+Tablet - retrato: 768px até 834px
+Tablet - paisagem: 1024px até 1112px
+
+Monitor de notebook: 1366px até 1440px
+
+Monitor de mesa: 1680px até 1920px
+*/
+
+/*Na Atividade os valores de medida não seguem o typical device breakpoint, pois a tela que trabalho não é grande o suficiente para a realização de todos os testes*/
+
+/*                                       Tablet                                                          */
+@media screen and (min-width: 1024px) and (max-width: 1112px) {
+    body{
+        background-image: url(../../imagens/back-tablet.jpg);
+    }
+    img#tablet{ display: block;}
+    img#phone{ display: none;}
+    img#impressora{ display: none;}
+    img#pc{ display: none;}
+    img#tv{ display: none;}
+}
+
+
+/*                              Monitor de notebook: 1366px até 1440px                                            */
+@media screen and (min-width: 1112px) and (max-width: 1340px) {
+    body{
+        background-image: url(../../imagens/back-pc.jpg);
+    }
+    img#pc{display:block}
+    img#phone{ display: none;}
+    img#tablet{ display: none;}
+    img#impressora{ display: none;}
+    img#tv{ display: none;}
+}
+
+
+/*                                 Monitor de mesa: 1680px até 1920px                                             */
+@media screen and (min-width: 1340px) {
+    body{
+        background-image: url(../../imagens/back-tv.jpg);
+    }
+    img#tv{display:block}
+    img#pc{display:none}
+    img#phone{ display: none;}
+    img#tablet{ display: none;}
+    img#impressora{ display: none;}
+}
+
+
+/*                                  Configuração para Impressora                                                   */
+@media print {
+    
+}
