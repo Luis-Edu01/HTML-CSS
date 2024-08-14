@@ -9,7 +9,7 @@ html{
     height: 100vh;
 }
 header{
-    background-color: darkgray;
+    background-color: lightgray;
     padding: 20px;
 }
 header h1{
