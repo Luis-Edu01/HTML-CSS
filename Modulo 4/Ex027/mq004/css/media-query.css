@@ -17,6 +17,8 @@ Monitor de mesa: 1680px até 1920px
 
 /*Na Atividade os valores de medida não seguem o typical device breakpoint, pois a tela que trabalho não é grande o suficiente para a realização de todos os testes*/
 
+/*Independente da tela, ao dar Ctrl + P, aparece-ra a impressora na folha de impressão*/
+
 /*                                       Tablet                                                          */
 @media screen and (min-width: 1024px) and (max-width: 1112px) {
     body{
@@ -58,5 +60,28 @@ Monitor de mesa: 1680px até 1920px
 
 /*                                  Configuração para Impressora                                                   */
 @media print {
-    
+    *{
+        font-family: 'Courier New', Courier, monospace; /*Fonte para impressora*/
+        font-size: 1.15em;
+    }
+    body{
+        background-image: url(../../imagens/back-print.jpg); /*Desnecessario, é apenas para aparecer a impressora*/
+    }
+    main{
+        border: 2px solid black;
+        width: 90vw;
+    }
+    main::after{
+        content: 'Meu GITHUB é https://github.com/Luis-Edu01';
+        text-decoration: overline;
+    }
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+    img#impressora{ display: block;}
+    img#tv{display:none}
+    img#pc{display:none}
+    img#phone{ display: none;}
+    img#tablet{ display: none;}
 }
