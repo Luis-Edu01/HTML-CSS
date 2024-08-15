@@ -16,8 +16,20 @@ header > h1{
     padding: 15px;
     
 }
-menu{
+i#burguer{
+    background-color: rgb(48, 48, 48);
+    color: white;
     display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+i#burguer:hover{
+    background-color: white;
+    color: black;
+}
+menu{
+    display: none;
 }
 menu > ul{
     list-style-type: none;
@@ -36,16 +48,19 @@ menu > ul > li > a:hover{
     color:red;
 }
 main{
-    width: 75vw;
+    width: 65vw;
     background-color: white;
     margin: auto;
     padding: 10px;
     margin-top: 10px;
+    margin-bottom: 20px;
     border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
     
 }
 article > h2{
     padding-bottom: 20px;
+    text-align: center;
 }
 article > p{
     text-align: justify;
@@ -55,7 +70,17 @@ article > p{
 footer{
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: rgba(87, 87, 87);
     padding: 10px;
-    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+footer:hover{
+    background-color: black;
+    color: red;
+}
+a:hover{
+    color:red;
 }

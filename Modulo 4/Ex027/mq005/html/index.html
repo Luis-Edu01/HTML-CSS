@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>media query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -25,10 +27,26 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat commodi ipsam blanditiis et ipsa corrupti earum voluptates accusamus necessitatibus eligendi repellendus, sunt sint laboriosam dolor eum quisquam inventore ducimus! Laborum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam qui nam explicabo sed modi? Facilis earum pariatur natus. Fugiat quod eius libero voluptatem pariatur possimus dolor consequatur facere placeat soluta?</p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id nobis esse sint quo asperiores incidunt cupiditate explicabo. Quas, quos harum ad, assumenda sunt cum quo repellendus, nemo sint ratione vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatem consequuntur, omnis quas aliquam repellat dignissimos fuga nostrum eveniet molestiae? Reprehenderit voluptate omnis alias laborum repellat odit ex mollitia nobis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error minus vitae tempore! Possimus maxime ullam expedita et cum sunt repellendus? Minus accusamus, quia voluptatem excepturi vitae corporis dolor reprehenderit eveniet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eius, quasi, quae distinctio cumque natus nulla, enim voluptates labore veritatis beatae? Quasi voluptatem, libero iure hic rem rerum ullam sapiente.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est reiciendis alias repellat, doloremque totam quo cupiditate mollitia omnis at labore neque tenetur ipsum. Et consequatur aliquam voluptate ex quae nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sunt similique, modi culpa nobis eum facere voluptatum accusantium laudantium consequuntur ea, harum magnam. Deserunt reiciendis, cupiditate porro vero debitis mollitia?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat commodi ipsam blanditiis et ipsa corrupti earum voluptates accusamus necessitatibus eligendi repellendus, sunt sint laboriosam dolor eum quisquam inventore ducimus! Laborum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam qui nam explicabo sed modi? Facilis earum pariatur natus. Fugiat quod eius libero voluptatem pariatur possimus dolor consequatur facere placeat soluta?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id nobis esse sint quo asperiores incidunt cupiditate explicabo. Quas, quos harum ad, assumenda sunt cum quo repellendus, nemo sint ratione vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatem consequuntur, omnis quas aliquam repellat dignissimos fuga nostrum eveniet molestiae? Reprehenderit voluptate omnis alias laborum repellat odit ex mollitia nobis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error minus vitae tempore! Possimus maxime ullam expedita et cum sunt repellendus? Minus accusamus, quia voluptatem excepturi vitae corporis dolor reprehenderit eveniet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eius, quasi, quae distinctio cumque natus nulla, enim voluptates labore veritatis beatae? Quasi voluptatem, libero iure hic rem rerum ullam sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est reiciendis alias repellat, doloremque totam quo cupiditate mollitia omnis at labore neque tenetur ipsum. Et consequatur aliquam voluptate ex quae nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sunt similique, modi culpa nobis eum facere voluptatum accusantium laudantium consequuntur ea, harum magnam. Deserunt reiciendis, cupiditate porro vero debitis mollitia?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat commodi ipsam blanditiis et ipsa corrupti earum voluptates accusamus necessitatibus eligendi repellendus, sunt sint laboriosam dolor eum quisquam inventore ducimus! Laborum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam qui nam explicabo sed modi? Facilis earum pariatur natus. Fugiat quod eius libero voluptatem pariatur possimus dolor consequatur facere placeat soluta?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id nobis esse sint quo asperiores incidunt cupiditate explicabo. Quas, quos harum ad, assumenda sunt cum quo repellendus, nemo sint ratione vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatem consequuntur, omnis quas aliquam repellat dignissimos fuga nostrum eveniet molestiae? Reprehenderit voluptate omnis alias laborum repellat odit ex mollitia nobis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error minus vitae tempore! Possimus maxime ullam expedita et cum sunt repellendus? Minus accusamus, quia voluptatem excepturi vitae corporis dolor reprehenderit eveniet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eius, quasi, quae distinctio cumque natus nulla, enim voluptates labore veritatis beatae? Quasi voluptatem, libero iure hic rem rerum ullam sapiente.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est reiciendis alias repellat, doloremque totam quo cupiditate mollitia omnis at labore neque tenetur ipsum. Et consequatur aliquam voluptate ex quae nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sunt similique, modi culpa nobis eum facere voluptatum accusantium laudantium consequuntur ea, harum magnam. Deserunt reiciendis, cupiditate porro vero debitis mollitia?</p>
         </article>
     </main>
     <footer>
-        <p>Escrito por <a href="https://github.com/Luis-Edu01">Luís Eduardo</a></p>
+        <p>Escrito por <a href="https://github.com/Luis-Edu01" target="_blank">Luís Eduardo</a></p>
     </footer>
+    <script>
+        function clickMenu(){
+            if(itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }
+            else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
